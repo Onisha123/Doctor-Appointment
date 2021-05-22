@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="htpp://www.thymleaf.com">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+  <h2>Update Your Appointment</h2>
+  <form th:method="post" th:action="@{/save}" th:object="${appointment}">
+  <input type="hidden" th:field="*{id}">
+  Name: <input type="text" th:field="*{firstName}"><br>
+  Email: <input type="email" th:field="*{email}"><br>
+  Date: <input type="date" th:field="*{appointmentDate}"><br>
+  Time: <input type="time" th:field="*{appointmentTime}"><br>
+  <input type="submit" value="Update">
+ </form>
+
+</body>
+</html>

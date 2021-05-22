@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+
+table{
+	 width: 100%;
+	border: 5px solid black;
+	border-collapse:collapse;
+
+}
+th{
+	border: 1px solid black;
+}
+td{
+	border: 1px solid black;
+}
+ label { display:block;
+  }
+  
+  input{margin-bottom:15px;
+  }
+
+ div{ text-align:center;
+      padding:40px;
+ }
+ 
+ legend{font-style:italic;}
+ 
+ body{background-color:#F4F6F6;
+ }
